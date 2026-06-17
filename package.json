@@ -1,0 +1,13 @@
+{
+  "name": "pr-scrutiny-test-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fake repo for capturing real GitHub webhook payloads for pr-scrutiny development",
+  "type": "module",
+  "scripts": {
+    "capture": "node webhook-capture/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
